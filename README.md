@@ -99,6 +99,22 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ### DEMO
 https://phpstack-772581-2872088.cloudwaysapps.com/
 
+### PLUS
+
+Explain why the result of ('b' + 'a' + + 'a' + 'a').toLowerCase() is banana.
+```
++'a' resolves to NaN ("This would not be a number") because it converts a string to a number, whereas the character a cannot be parsed as a number.
+
+Lowercase becomes banana.
+
+Adding NaN to "ba" converts NaN to the string "NaN" due to type conversion, giving baNaN.
+And then there's an a behind, getting the famous baNaNa.
+
+The space between ++ is to make the first concatenation of a string and the second a unary plus ("positive") operator.
+You get the same result if you use 'ba'+(+'a')+'a', resolved as 'ba'+NaN+'a', which is equivalent to 'ba'+'NaN'+'a' This is the why! :)
+```
+
+
 ###
 Thank you for considering my application. 😉
 
