@@ -29,3 +29,5 @@ npm run lint
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
+### DEMO
+https://phpstack-772581-2872088.cloudwaysapps.com/
