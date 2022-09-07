@@ -1,5 +1,7 @@
  # @cgmorah  /frontend-assessment
  frontend technical assessment mindarc by GIOVANNI MORA
+ 
+ IMPORTANT : It's built with Vuejs and It's not a regular HTML
 
 ## Project setup
 ```
@@ -28,6 +30,55 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### Folder Structure
+```
+// root folder
+        +
+        |——aeroland
+        |  |——public/
+        |  |  |——/index.html
+        |  |  |——/favicon.ico
+        |  |  |——/.htaccess
+        |  |——dist/
+        |  |  |——css/
+        |  |  |——img/
+        |  |  |——js/
+        |  |  |——fonts/
+        |  |  |——.htaccess
+        |  |  |——favicon
+        |  |  |——/index.html
+        |  |——src
+        |  |  |——assets/
+        |  |  |  |——css/                          --css files
+		|  |  |  |——data/                         --data.json
+        |  |  |  |——fonts/                        --fonts files
+        |  |  |  |——img/                          --img files
+        |  |  |  |——js/                           --js files
+        |  |  |  |——scss/                         --scss files
+        |  |  |  |——/index.scss
+        |  |  |——components                       --Component Files Folder
+        |  |  |  |——/Accordion.vue
+        |  |  |  |——/FooterMain.vue
+        |  |  |  |——/HeaderDeveloper.vue
+        |  |  |  |——/HelloItemDeveloper.vue
+        |  |  |  |——/TabOne.vue
+        |  |  |——home_pages  
+        |  |  |  |——/HomeDeveloper.vue
+        |  |  |——pages
+        |  |  |  |——/404.vue		
+        |  |  |  |——/ElementAccordion.vue
+        |  |  |——router/
+        |  |  |  |——/index.js
+        |  |  |——/App.vue
+        |  |  |——/main.js
+        |  |——/babel.config.js
+        |  |——/.gitignore.js                    
+        |  |——/package.json
+        |  |——/README.md
+        +
+```
 
 ### DEMO
 https://phpstack-772581-2872088.cloudwaysapps.com/
