@@ -1,0 +1,13 @@
+/*=============================================
+=            06. Footer Css           =
+=============================================*/
+
+.copyright-text {
+    display: inline-block;
+
+    @media #{$large-mobile} {
+        margin-bottom: 15px;
+    }
+}
+
+/*=====  End of footer ======*/

@@ -1,0 +1,125 @@
+/*======================================
+   Home Pages Css
+======================================*/
+.frontend-assessment-section-title {
+    h1,h2,h3,h4,h5,h6 {
+        color: #333;
+    }
+    & h3 {
+        line-height: 1.4;
+    }
+    & .section-sub-title{
+        color: #ee7455;
+        font-size: 14px;
+    }
+    
+}
+
+.frontend-assessment-grid {
+    display: grid;
+    grid-template-columns: repeat( 3,1fr);
+    grid-column-gap: 70px;
+    grid-row-gap: 50px;
+    @media #{$tablet-device}{
+        grid-template-columns: repeat( 2,1fr);
+    }
+    @media #{$large-mobile}{
+        grid-template-columns: repeat( 1,1fr);
+    }
+}
+.frontend-assessment-assistance, 
+.frontend-assessment-working {
+    &__warap {
+        max-width: 370px;
+        width: 100%;
+        height: 100%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        
+        &:hover {
+            & .frontend-assessment-assistance__box {                
+                box-shadow: 0 2px 30px rgb(89 69 230 / 12%);
+                transform: translateY(-5px);
+            }
+        }
+        @media #{$tablet-device,$large-mobile}{
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__box {
+        border: 1px solid #dce6ed;
+        border-radius: 5px;        
+        overflow: hidden;
+        padding: 20px 20px 40px;
+        position: relative;
+        text-align: center;
+        transition: $transition--default;
+    }
+    &__images {
+        position: relative;
+        border-radius: 5px;
+        overflow: hidden;
+        & .images-midea {
+            text-align: center;
+            & img {
+                width: 100%;
+                transition: transform 1s;
+            }
+            &:hover {
+                & img {
+                    transform: scale(1.1, 1.1);
+                }
+            }
+            & .heading {
+                position: absolute;
+                bottom: 30px;
+                left: 0;
+                right: 0;
+                font-size: 24px;
+                line-height: 1.5;
+                color: #fff;
+                max-width: 250px;
+                margin: 0 auto;
+                z-index: 1;
+            }
+        }
+    }
+    &__content {
+        & p {
+            color: #7e7e7e;
+            & strong {
+                color: #333;
+                font-weight: 500;
+            }
+        } 
+    }
+}
+.frontend-assessment-working {
+    &__warap {
+        @media #{$tablet-device,$large-mobile}{
+            align-items: flex-start;
+            margin-left: 0;
+            margin-right: 0;
+        }
+        @media #{$small-mobile}{
+            align-items: center;
+            max-width: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    }
+    &__images {
+        & .images-midea {
+            & .heading {
+                font-size: 18px;
+                text-align: left;
+                @media #{$large-mobile}{
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
