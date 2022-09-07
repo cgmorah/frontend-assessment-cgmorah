@@ -1,7 +1,18 @@
  # @cgmorah  /frontend-assessment
  frontend technical assessment mindarc by GIOVANNI MORA
  
- IMPORTANT : It's built with Vuejs and It's not a regular HTML
+ IMPORTANT : It's built with Vue js App & Sass and It's not a regular HTML
+ 
+### Features
+```
+✓ Vue Js
+✓ Vue Router
+✓ Component Base
+✓ Power Bootstrap
+✓ Responsive
+✓ Animate
+✓ No jQuery
+```
 
 ## Project setup
 ```
@@ -52,7 +63,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         |  |——src
         |  |  |——assets/
         |  |  |  |——css/                          --css files
-		|  |  |  |——data/                         --data.json
+	|  |  |  |——data/                         --data.json
         |  |  |  |——fonts/                        --fonts files
         |  |  |  |——img/                          --img files
         |  |  |  |——js/                           --js files
@@ -79,6 +90,23 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
         |  |——/README.md
         +
 ```
-
+### Dependencies
+```
+@vue-slick Doc: https://www.npmjs.com/package/vue-slick
+@vue-awesome-swiper Doc: https://www.npmjs.com/package/vue-awesome-swiper
+@vue-bootstrap Doc: https://www.npmjs.com/package/bootstrap
+```
 ### DEMO
 https://phpstack-772581-2872088.cloudwaysapps.com/
+
+###
+Thank you for considering my application. 😉
+
+Best Regards
+
+###
+GIOVANNI MORA
+Full  Stack  Developer
+Project Manager
++61 410 740 600 /  +1 818 748 8317
+www.whuws.com | Skype: NIGIVI 
