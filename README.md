@@ -1,4 +1,4 @@
- # @cgmorah  /frontend-assessment
+ # @cgmorah  /Frontend Assessment Mindarc
  frontend technical assessment mindarc by GIOVANNI MORA
  
  IMPORTANT : It's built with Vue js App & Sass and It's not a regular HTML
@@ -105,8 +105,9 @@ Thank you for considering my application. 😉
 Best Regards
 
 ###
-GIOVANNI MORA
-Full  Stack  Developer
-Project Manager
-+61 410 740 600 /  +1 818 748 8317
-www.whuws.com | Skype: NIGIVI 
+CESAR GIOVANNI MORA
+| Full  Stack  Developer
+| Project Manager
+| +61 410 740 600 /  +1 818 748 8317
+| www.whuws.com - cgmorah@gmail.com
+| Skype: NIGIVI 
