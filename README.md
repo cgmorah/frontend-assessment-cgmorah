@@ -1,5 +1,5 @@
  # @cgmorah  /Frontend Assessment [MindArc]
- frontend technical assessment mindarc by GIOVANNI MORA
+ Frontend technical assessment MindArc by GIOVANNI MORA
  
  IMPORTANT : It's built with Vue js App & Sass and It's not a regular HTML
  
